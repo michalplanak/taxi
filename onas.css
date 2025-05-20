@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root{
+    --yellow:yellow;
+    --black:black;
+    --white:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column;
+}
+.top-banner{
+    width: 100%;
+    height: 700px;
+}
+.top-banner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+}
+.top-text-wrapper{
+    color: var(--white);
+    font-size: 60px;
+}
+.top-text-wrapper h1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.mid-top{
+    color: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mid-top h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.mid-top span{
+    font-size: 20px;
+}
+.read-more{
+    width: 100%;
+    height: 100px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.read-more:hover{
+    color: gray;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.unvisible-text{
+    display: none;
+    width: 100%;
+}
+.unvisible-text p{
+    margin: 25px 0;
+}
+span{
+    display: flex;
+}
+span svg{
+    position: absolute;
+    left: 68%;
+}
+#arrowup{
+    display: none;
+}
+#arrowdown{
+    display: flex;
+}
+.mid-banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(assets/taxi-=driver.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid-banner img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.mid-banner-text{
+   color: white;
+   padding:240px ;
+}
+.mid-banner-text h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.mid-banner-text p{
+    margin: 20px 0;
+}
+.mid-banner-text button{
+    width: 25%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: gray;
+    font-size: 20px;
+}
+.mid-banner-text button:hover{
+  cursor: pointer;
+  background-color: var(--yellow);
+  transition: 0.5s;
+  scale: 1.1;
+  color: black;
+}
+.bottom-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    justify-content: center;
+}
+.bottom-mid article{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.bottom-mid article h1{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.left{
+    width: 50%;
+}
+.bottom-mid article{
+    margin: 100px 0;
+}
+footer{
+    width: 100%;
+    background-color: var(--black);
+    height: 300px;
+    color: var(--white);
+    display: flex;
+}
+.footer-left{
+    width: 33%;
+}
+.footer-left p{
+    margin: 10px 0;
+}
+.footer-mid{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-mid h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.footer-mid a{
+    margin: 10px 0;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-right{
+    width: 33%;
+}

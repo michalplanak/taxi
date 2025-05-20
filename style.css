@@ -8,28 +8,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     display: flex;
     justify-content: center;
 }
-
-.wojewodzstwa {
-    display: flex;
-    justify-content: center;
+.map{
     width: 100%;
     height: 850px;
-}
-
-.map {
     display: flex;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
 }
-
 .zachodnio-pomorskie {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     clip-path: polygon(2% 12%, 5% 14%, 6% 17%, 3% 14%, 0% 30%, 3% 35%, 22% 27%, 27% 17%, 30% 6%);
     background-color: gray;
@@ -37,8 +28,8 @@ body {
     min-width: 100px;
 }
 .pomorskie {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     clip-path: polygon(31% 6%, 28% 17%, 32% 19%, 33% 18%, 49% 18%, 49% 7%, 51% 5%, 48% 3%, 50% 2%, 47% 0%, 43% 0%);
     background-color: gray;
@@ -46,8 +37,8 @@ body {
     min-width: 100px;
 }
 .warminsko-mazurskie {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     clip-path: polygon(50% 7%, 50% 19%, 55% 26%, 73% 21%, 87% 7%);
     background-color: gray;
@@ -56,8 +47,8 @@ body {
 }
 .podlaskie {
     clip-path: polygon(74% 22%, 89% 41%, 96% 33%, 89% 7%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -65,8 +56,8 @@ body {
 }
 .lubuskie {
     clip-path: polygon(4% 36%, 4% 41%, 5% 42%, 5% 54%, 8% 58%, 22% 50%, 17% 42%, 18% 30%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -74,8 +65,8 @@ body {
 }
 .wielko-polskie {
     clip-path: polygon(28% 18%, 22% 28%, 19% 29%, 18% 42%, 23% 50%, 36% 58%, 37% 60%, 47% 43%, 34% 37%, 32% 21%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -83,8 +74,8 @@ body {
 }
 .kujawsko-pomorskie {
     clip-path: polygon(34% 19%, 33% 20%, 35% 35%, 48% 41%, 50% 39%, 54% 27%, 49% 19%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -92,8 +83,8 @@ body {
 }
 .mazowieckie {
     clip-path: polygon(56% 27%, 51% 40%, 64% 50%, 63% 59%, 75% 64%, 77% 48%, 88% 42%, 73% 23%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -101,8 +92,8 @@ body {
 }
 .dolno-slaskie {
     clip-path: polygon(7% 59%, 6% 67%, 7% 66%, 7% 65%, 16% 71%, 20% 72%, 22% 73%, 19% 76%, 23% 82%, 27% 80%, 26% 77%, 35% 61%, 35% 59%, 23% 51%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -110,8 +101,8 @@ body {
 }
 .lodzkie{
     clip-path: polygon(37% 62%, 45% 64%, 54% 68%, 62% 60%, 63% 50%, 50% 41%, 48% 43%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -119,8 +110,8 @@ body {
 }
 .lubelskie{
     clip-path: polygon(89% 43%, 78% 49%, 76% 65%, 78% 69%, 86% 78%, 95% 79%, 96% 76%, 100% 75%, 100% 70%, 99% 68%, 100% 67%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -128,8 +119,8 @@ body {
 }
 .opolskie{
     clip-path: polygon(36% 63%, 44% 65%, 37% 83%, 35% 85%, 33% 82%, 35% 81%, 35% 79%, 27% 77%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -137,8 +128,8 @@ body {
 }
 .slaskie{
     clip-path: polygon(45% 65%, 38% 83%, 43% 86%, 43% 90%, 45% 91%, 48% 96%, 52% 92%, 48% 86%, 56% 76%, 55% 69%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -146,8 +137,8 @@ body {
 }
 .swietokrzyskie{
     clip-path: polygon(56% 68%, 57% 76%, 63% 80%, 70% 79%, 77% 70%, 75% 66%, 63% 61%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -155,8 +146,8 @@ body {
 }
 .malopolskie{
     clip-path: polygon(57% 78%, 49% 86%, 53% 92%, 56% 99%, 59% 99%, 62% 97%, 66% 96%, 67% 97%, 69% 97%, 69% 95%, 72% 96%, 70% 80%, 62% 82%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
@@ -164,8 +155,8 @@ body {
 }   
 .podkarpackie{
     clip-path: polygon(78% 71%, 86% 79%, 95% 80%, 87% 98%, 88% 100%, 86% 100%, 85% 99%, 83% 99%, 78% 96%, 74% 96%, 71% 80%);
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 80%;
     position: absolute;
     background-color: gray;
     max-width: 900px;
