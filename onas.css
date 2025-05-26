@@ -175,3 +175,14 @@ footer{
 .footer-right{
     width: 33%;
 }
+#modal {
+    display: none;
+}
+.submit {
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
